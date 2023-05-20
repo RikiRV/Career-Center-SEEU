@@ -1,0 +1,92 @@
+
+/* Top of navbar */
+.TopOfHero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Language {
+    font-size: clamp(1rem, 2.4vw, 1.2rem);
+
+    display: flex;
+}
+
+.Language ul {
+    margin-left: 1.2rem;
+    display: flex;
+    gap: 0.9rem;
+}
+
+.Language ul li{
+    color: #E38800;
+}
+
+.Work {
+    font-size: clamp(0.8rem, 2.4vw, 1rem);
+    display: flex;
+    gap: 1.2rem;
+    color: #153E4D;
+    margin-right: 1.2rem;
+}
+
+/* Link items */
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+}
+
+.links li {
+    color: rgba(230, 230, 230, 0.808);
+}
+
+.links li:hover {
+    color: white;
+}
+
+/* Buttons */
+.ButtonsNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.ButtonsNav button {
+    color: white;
+    background-color: #E38800;
+    border-radius: 1.6rem;
+    padding: 0.6em 1.3em;
+    border: none;
+}
+
+.ButtonsNav button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #E38800;
+    border-color: #E38800;
+    padding: 0.5em 1.2em;
+    cursor: pointer;
+}
+
+/* logo */
+
+.Logo{
+    margin-left: 11rem;
+}
+
+@media (max-width: 700px) {
+    .Logo {
+        margin-left: 0rem;
+    }
+    .ButtonsNav {
+        display: none;
+    }
+    .Work {
+        display: none;
+    }
+    .TopOfHero {
+        padding: 0.2em;
+        justify-content: center;
+    }
+}

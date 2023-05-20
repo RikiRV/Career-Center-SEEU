@@ -1,0 +1,88 @@
+/* Career center SEEU */
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 2em;
+}
+
+.Container h1 {
+    color: #153E4D;
+    font-size: clamp(1.8em, 2.4vw, 3em);
+    padding-right: 1em;
+}
+
+.DescriptionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 1em;
+    border-left: 2px solid #153E4D;
+}
+
+.DescriptionContainer h1 {
+    color: #153E4D;
+    font-size: clamp(1.8em, 2.4vw, 3em);
+}
+
+
+.DescriptionContainer p {
+    font-size: clamp(0.9em, 2.4vw, 1.2em);
+}
+
+/* Mission */
+
+.ContainerMission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2em 2em;
+    border-top: 2em solid #153E4D;
+}
+
+.ContainerMission h1 {
+    color: #153E4D;
+    font-size: clamp(1.8em, 2.4vw, 3em);
+}
+
+.ContainerMission p {
+    background-color: white;
+    font-size: clamp(0.9em, 2.4vw, 1.2em);
+}
+
+/* What do we do */
+
+.WeDoContainer {
+    border-top: 2em solid #153E4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em 2em;
+    gap:2em;
+}
+
+.WeDoContainer h1{
+    color: #153E4D;
+    font-size: clamp(1.8em, 2.4vw, 3em);
+    padding-right: 1em;
+}
+
+.WeDoList ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+.WeDoList ul li{
+    font-size: clamp(0.9em, 2.4vw, 1.2em);
+    border-bottom: 2px solid #153E4D;
+    list-style: circle;
+    padding-left: 2em;
+}

@@ -31,7 +31,6 @@ ul {
   margin: 0;
 }
 
-
 ul {
   padding: 0;
   list-style: none;
@@ -40,8 +39,8 @@ ul {
 nav {
   display: flex;
   justify-content: space-around;
-  background-color: #153E4D;
-  position:sticky;
+  background-color: #153e4d;
+  position: sticky;
   /* margin-bottom: 50px; */
 }
 
@@ -50,12 +49,12 @@ nav {
 .textAndMedia {
   display: flex;
   justify-content: space-evenly;
-  align-items:center;
-  margin-bottom: 50px
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .textAndMedia h1 {
-  color: #153E4D;
+  color: #153e4d;
   padding-bottom: 0.5em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: bold;
@@ -120,8 +119,8 @@ nav {
   display: flex;
   justify-content: center;
   /* border-bottom: 0.4em solid #153E4D; */
-  background-color: #153E4D;
-  border-top: 0.4em solid #153E4D;
+  background-color: #153e4d;
+  border-top: 0.4em solid #153e4d;
   margin-bottom: 50px;
   padding: 1em 0em;
 }
@@ -135,16 +134,15 @@ nav {
   .Global-latest-news-text {
     background-color: rgba(0, 0, 0, 0);
     justify-content: center;
-    background-image: url( '../public/wave.svg' );
+    background-image: url("../public/wave.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-bottom: 2em;
     border-bottom: 0;
     border-top: 0;
-
   }
-  .Global-latest-news-text h1{
+  .Global-latest-news-text h1 {
     color: white;
     padding-bottom: 2em;
     padding-top: 1em;

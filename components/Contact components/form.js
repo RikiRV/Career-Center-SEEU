@@ -3,7 +3,7 @@ import Styles from "../../styles/Contact/form.module.css";
 export default function Form() {
   return (
     <div className={Styles.formContainer}>
-      <form action="" method="POST">
+      <form action="https://formspree.io/f/xoqzzqan" method="POST">
         <label>Full Name:</label>
         <input type="text" name="name" required></input>
         <label>Your email:</label>

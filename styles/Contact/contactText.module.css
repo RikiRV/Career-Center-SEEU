@@ -1,0 +1,32 @@
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 4em 2em;
+}
+
+.TextContainer h1 {
+  font-size: clamp(1.5rem, 2.9vw, 2rem);
+  color: #153e4d;
+}
+
+.TextContainer p {
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+}
+
+.ContactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2em 2em;
+  gap: 2em;
+}
+
+.ContactContainer p {
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  color: #153e4d;
+  font-weight: bold;
+}

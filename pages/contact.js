@@ -1,5 +1,11 @@
+import Form from "../components/Contact components/form";
+import ContactText from "../components/Contact components/contactText";
+
 export default function Contact() {
-    return (
-        <h1>Contact</h1>
-    )
+  return (
+    <>
+      <ContactText />
+      <Form />
+    </>
+  );
 }

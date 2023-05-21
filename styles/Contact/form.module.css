@@ -1,0 +1,59 @@
+.formContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formContainer input {
+  font-size: 1em;
+  border-radius: 0.5em;
+  border: 1px solid black;
+  height: 2rem;
+}
+
+.formContainer form {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  padding: 4em 0em;
+  max-width: 18.75em;
+}
+
+.formContainer form label {
+  color: #153e4d;
+  font-weight: bold;
+}
+
+.formContainer form textarea {
+  border-radius: 0.5em;
+  border: 1px solid black;
+  font-size: 1rem;
+  width: 18.75em;
+  height: 11em;
+  resize: none;
+}
+
+.formContainer button {
+  color: white;
+  background-color: #e38800;
+  border-radius: 1.6rem;
+  padding: 0.6em 1.3em;
+  border: none;
+  font-size: clamp(0.8rem, 2.4vw, 1rem);
+}
+
+.formContainer button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #e38800;
+  border-color: #e38800;
+  padding: 0.5em 1.2em;
+  cursor: pointer;
+  color: #e38800;
+}
+
+@media (max-width: 700px) {
+  .formContainer img {
+    display: none;
+  }
+}

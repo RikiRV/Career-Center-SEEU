@@ -46,7 +46,7 @@ export default function PgHeader() {
 
         {/* Student / Company buttons */}
         <div className={Styles.ButtonsNav}>
-          <Link href="#" passHref>
+          <Link href="https://jobs.marseco.mk/career/seeu" passHref>
             <button>for Student</button>
           </Link>
           <Link href="#" passHref>

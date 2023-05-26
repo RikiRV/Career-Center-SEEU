@@ -1,10 +1,25 @@
 import Styles from "../../styles/Event Card/eventCard.module.css";
-import Materials from "../../static API/event.json";
+import { useRouter } from "next/router";
+import al from "../../public/locales/al/EventAL";
+import en from "../../public/locales/en/EventEN";
+import mk from "../../public/locales/mk/EventMK";
 
 export default function EventCard() {
+  const router = useRouter();
+  const { locale } = router;
+
+  var t;
+
+  if (locale === "en") {
+    t = en;
+  } else if (locale === "al") {
+    t = al;
+  } else if (locale === "mk") {
+    t = mk;
+  }
   return (
     <>
-      {Materials.map((material) => {
+      {t.map((material) => {
         return (
           <div className={Styles.EventCardContainer} key={material.id}>
             {/* Front Card */}

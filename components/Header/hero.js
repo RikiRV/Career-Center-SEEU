@@ -1,7 +1,23 @@
 import Styles from "../../styles/Header/hero.module.css";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import al from "../../public/locales/al/GlobalAL";
+import en from "../../public/locales/en/GlobalEN.js";
+import mk from "../../public/locales/mk/GlobalMK.js";
 
 export default function Hero() {
+  const router = useRouter();
+  const { locale } = router;
+
+  var t;
+
+  if (locale === "en") {
+    t = en;
+  } else if (locale === "al") {
+    t = al;
+  } else if (locale === "mk") {
+    t = mk;
+  }
   return (
     <>
       <div className={Styles.HeroContainer}>
@@ -19,22 +35,12 @@ export default function Hero() {
 
         <div className={Styles.VideoTextWrapper}>
           <div className={Styles.VideoText}>
-            <h1>Career Center Seeu</h1>
-            <p>
-              The South East European University Career Centre is a linking
-              bridge between students of our university and companies in North
-              Macedonia.
-            </p>
+            <h1>{t.CCSTitle}</h1>
+            <p>{t.CCSTtext}</p>
           </div>
           <div className={Styles.VideoText}>
-            <h1>What do we do?</h1>
-            <p>
-              {" "}
-              We are working with two groups of people, the present and
-              graduated students. To the last ones we help building their career
-              steps by finding places for employment in private or public
-              sectors dependence from their major or qualities.
-            </p>
+            <h1>{t.WWDTitle}</h1>
+            <p>{t.WWDText}</p>
           </div>
         </div>
       </div>

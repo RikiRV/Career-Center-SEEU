@@ -12,7 +12,7 @@ export default function Form() {
         <textarea name="message" required></textarea>
         <button type="submit">Send</button>
       </form>
-      <img src="ContactSVG.svg" width="450px"></img>
+      <img src="../ContactSVG.svg" width="450px"></img>
     </div>
   );
 }

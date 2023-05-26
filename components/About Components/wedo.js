@@ -1,31 +1,35 @@
-import Styles from '../../styles/AboutCSS/about.module.css'
-
+import Styles from "../../styles/AboutCSS/about.module.css";
+import al from "../../public/locales/al/AboutTextAL";
+import en from "../../public/locales/en/AboutTextEN";
+import mk from "../../public/locales/mk/AboutTextMK";
+import { useRouter } from "next/router";
 
 export default function WeDo() {
-    return (
-        <div className={Styles.WeDoContainer}>
-            <div className={Styles.WeDoTitle}>
-                <h1>What do we do?</h1>
-            </div>
-            <div className={Styles.WeDoList}>
-                <ul>
-                    <li>U ndihmojmë studentëve të identifikojnë, planifikojnë dhe realizojnë qëllimet e karrierës.</li>
+  const router = useRouter();
+  const { locale } = router;
 
-                    <li>Kontribojmë në aftësimin e studentëve për kërkim të vendeve të punës dhe mundësive për
-                        zhvillim profesional.</li>
+  var t;
 
-                    <li>Ofrojmë informata aktuale për mundësitë për punësim dhe praktikë/Internship.</li>
+  if (locale === "en") {
+    t = en;
+  } else if (locale === "al") {
+    t = al;
+  } else if (locale === "mk") {
+    t = mk;
+  }
 
-                    <li>Ofrojmë informata aktuale për tregun e punës.</li>
-
-                    <li>Organizojmë ngjarje që ju mundësojnë studentëve të krijojnë takime dhe kontakte me
-                        punëdhënësit potenacial.</li>
-
-                    <li>Nxisim dhe mbajmë partneritet të vazhdueshëm dhe afatgjatë me departamentet
-                        akademike për të siguruar shkëmbime cilësore mes Qendrës së Karrierës, komunitetit
-                        akademik dhe punëdhënësve brenda dhe jashtë kufijve të Maqedonisë.</li>
-                </ul>
-            </div>
-        </div>
-    )
+  return (
+    <div className={Styles.WeDoContainer}>
+      <div className={Styles.WeDoTitle}>
+        <h1>{t.WhatWeDoTitle}</h1>
+      </div>
+      <div className={Styles.WeDoList}>
+        <ul>
+          {t.WhatWeDoList.map((i) => (
+            <li key={i}>{i}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
 }

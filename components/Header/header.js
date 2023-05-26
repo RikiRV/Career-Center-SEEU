@@ -36,7 +36,7 @@ export default function PgHeader() {
         {/* Logo */}
         <Link href="/" passHref>
           <img
-            src="Career center - logo svg.svg"
+            src="../Career center - logo svg.svg"
             width="50px"
             className={Styles.Logo}
           ></img>

@@ -17,6 +17,7 @@ export default function Form() {
   } else if (locale === "mk") {
     t = mk;
   }
+
   return (
     <div className={Styles.formContainer}>
       <form action="https://formspree.io/f/xoqzzqan" method="POST">

@@ -50,7 +50,7 @@ export default function Hero() {
         <Link href="https://jobs.marseco.mk/career/seeu" passHref>
           <button>for Student</button>
         </Link>
-        <Link href="#" passHref>
+        <Link href="companies" passHref>
           <button>for Company</button>
         </Link>
       </div>

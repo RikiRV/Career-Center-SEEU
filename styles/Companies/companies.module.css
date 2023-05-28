@@ -1,0 +1,63 @@
+.CompaniesContainer {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 2em 0em;
+}
+
+.CompaniesContainer h1 {
+  font-size: clamp(1.2rem, 2.9vw, 2rem);
+  max-width: 80vw;
+  color: #153e4d;
+}
+
+.CompaniesContainer p {
+  font-size: clamp(1rem, 1.4vw, 2rem);
+  max-width: 70vw;
+  margin: 2em 0em;
+}
+
+/* Question */
+.QuestionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.4em solid #153e4d;
+}
+
+.QuestionText h1 {
+  justify-self: center;
+  align-self: center;
+  border-bottom: 0.2em solid #153e4d;
+}
+
+/* What can we do */
+
+.WhatCanWeDo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.4em solid #153e4d;
+}
+
+.WhatCanWeDo h1 {
+  justify-self: center;
+  align-self: center;
+  border-bottom: 0.2em solid #153e4d;
+}
+
+/* How can you help */
+
+.HowCanYouHelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.4em solid #153e4d;
+}
+
+.HowCanYouHelp h1 {
+  justify-self: center;
+  align-self: center;
+  border-bottom: 0.2em solid #153e4d;
+}

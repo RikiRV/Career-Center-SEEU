@@ -3,10 +3,13 @@ import { useRouter } from "next/router";
 import al from "../../public/locales/al/EventAL";
 import en from "../../public/locales/en/EventEN";
 import mk from "../../public/locales/mk/EventMK";
+import { useState } from "react";
 
 export default function EventCard() {
   const router = useRouter();
   const { locale } = router;
+  const [isChecked, setIsChecked] = useState(false);
+  var ReadText = isChecked === false ? "Read More" : "Read Less";
 
   var t;
 
@@ -28,8 +31,19 @@ export default function EventCard() {
               <p>{material.text}</p>
 
               {/*Modal trigger */}
-              <button id="EventModalBtn" className={Styles.ModalButton}>
-                Read More
+              <input
+                type="checkbox"
+                className={Styles.ExpandButton}
+                checked={isChecked}
+              ></input>
+              <button
+                id="EventModalBtn"
+                className={Styles.ModalButton}
+                onClick={() => {
+                  setIsChecked(!isChecked);
+                }}
+              >
+                {ReadText}
               </button>
             </div>
 

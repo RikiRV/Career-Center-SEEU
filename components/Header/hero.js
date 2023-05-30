@@ -28,7 +28,7 @@ export default function Hero() {
           autoPlay
           muted
           loop
-          poster="News Photo.jpg"
+          poster="CareerPoster.svg"
         >
           <source src="SEEU Visual Campus.mp4" type="video/mp4"></source>
         </video>
@@ -48,10 +48,7 @@ export default function Hero() {
       {/* Student / Company buttons */}
       <div className={Styles.ButtonsNav}>
         <Link href="https://jobs.marseco.mk/career/seeu" passHref>
-          <button>for Student</button>
-        </Link>
-        <Link href="companies" passHref>
-          <button>for Company</button>
+          <button>Job Coener</button>
         </Link>
       </div>
     </>

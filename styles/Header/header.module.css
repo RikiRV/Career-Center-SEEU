@@ -1,7 +1,8 @@
 /* Top of navbar */
 .TopOfHero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: #153e4d;
 }
 
 .Language {
@@ -11,13 +12,19 @@
 }
 
 .Language ul {
-  margin-left: 1.2rem;
+  /* margin-left: 1.2rem; */
   display: flex;
   gap: 0.9rem;
 }
 
 .Language ul li {
+  /* max-width: 100px; */
+  /* max-height: 150px; */
   color: #e38800;
+}
+
+.Language img {
+  object-fit: fill;
 }
 
 .Work {
@@ -71,10 +78,15 @@
 /* logo */
 
 .Logo {
-  margin-left: 11rem;
+  /* margin-left: 11rem; */
+  min-width: 50px;
 }
 
 @media (max-width: 700px) {
+  .links li {
+    /* flex-wrap: wrap; */
+    padding-bottom: 1em;
+  }
   .Logo {
     margin-left: 0rem;
   }
@@ -87,5 +99,6 @@
   .TopOfHero {
     padding: 0.2em;
     justify-content: center;
+    background-color: #153e4d;
   }
 }

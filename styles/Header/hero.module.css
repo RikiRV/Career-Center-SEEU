@@ -1,105 +1,96 @@
 .HeroContainer {
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 6px; */
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 6px; */
 }
 
 .SeeuVideo {
-    opacity: 0.5;
-    overflow: hidden;
-    height: 60vh;
-    width: 100%;
-    z-index: 5;
-    object-fit: cover;
+  opacity: 0.5;
+  overflow: hidden;
+  height: 60vh;
+  width: 100%;
+  z-index: 5;
+  object-fit: cover;
 }
 
 .VideoText {
-    
-    z-index: 20;
-    position: relative;
-    padding: 5em;
-    text-align: center;
+  z-index: 20;
+  position: relative;
+  padding: 5em;
+  text-align: center;
 }
 .VideoText p {
-    font-size: clamp(0.1rem, 2.4vw, 1rem);
-    
-    color:rgb(253, 248, 219);
-    max-width: 35em;
+  font-size: clamp(0.1rem, 2.4vw, 1rem);
+
+  color: rgb(253, 248, 219);
+  max-width: 35em;
 }
 .VideoText h1 {
-    font-size: clamp(0.8rem, 2.4vw, 2rem);
-    
-    color: #35c9ff;
-    padding-bottom: 0.5em;
-    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.56);
-    font-weight: bold;
-}
+  font-size: clamp(0.8rem, 2.4vw, 2rem);
 
+  color: #35c9ff;
+  padding-bottom: 0.5em;
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.56);
+  font-weight: bold;
+}
 
 /*  */
 @media (max-width: 700px) {
-    .VideoText p {
-        display: none;
-    }
-    .VideoText h1 {
-        display: none;
-    }
-    .SeeuVideo {
-        opacity: 1;
-    }
-    .HeroContainer {
-        margin-bottom: 0px;
-    }
+  .VideoText p {
+    display: none;
+  }
+  .VideoText h1 {
+    display: none;
+  }
+  .SeeuVideo {
+    opacity: 1;
+  }
+  .HeroContainer {
+    margin-bottom: 0px;
+  }
 }
 
-/* .logo {
-    top: 5vh;
-    z-index: 20;
-    position: absolute;
-    width: 200px;
-} */
-
 .VideoTextWrapper {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Buttons */
 .ButtonsNav {
-    background-color: #153E4D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 1.2rem;
-    /* margin-bottom: 6px; */
+  background-color: #153e4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.2rem;
+  /* margin-bottom: 6px; */
 }
 
 .ButtonsNav button {
-    font-size: clamp(1rem, 2.4vw, 1.4rem);
-    font-size: 1.4rem;
-    color: white;
-    background-color: #E38800;
-    border-radius: 1.6rem;
-    padding: 0.6em 1.3em;
-    border: none;
+  font-size: clamp(1rem, 2.4vw, 1.4rem);
+  font-size: 1.4rem;
+  color: white;
+  background-color: #e38800;
+  border-radius: 1.6rem;
+  padding: 0.6em 1.3em;
+  border: none;
 }
 
-.ButtonsNav button:hover{
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid #E38800;
-    border-color: #E38800;
-    padding: 0.5em 1.2em;
-    cursor: pointer;
+.ButtonsNav button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #e38800;
+  border-color: #e38800;
+  padding: 0.5em 1.2em;
+  cursor: pointer;
 }
 
-@media (min-width: 700px){
-    .ButtonsNav {
-        display: none;
-    }
+@media (min-width: 700px) {
+  .ButtonsNav {
+    display: none;
+  }
 }

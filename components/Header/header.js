@@ -5,30 +5,29 @@ import Link from "next/link";
 export default function PgHeader() {
   const { locale, locales, push } = useRouter();
 
-  // const handleClick = (l) => () => {
-  //   push("/", undefined, { locale: l });
-  // };
-
   return (
     <>
       {/* Top of Hero section */}
       <div className={Styles.TopOfHero}>
         {/* Language changes */}
         <div className={Styles.Language}>
-          {locales.map((l) => (
-            <ul>
-              <li key={l}>
-                <Link href={"/"} locale={l}>
-                  {l}
-                </Link>
-              </li>
-            </ul>
-          ))}
-        </div>
-        {/* Work hours */}
-        <div className={Styles.Work}>
-          <p>careercenter@seeu.edu.com</p>
-          <p>Work Hours: 8:00-16:00</p>
+          <ul>
+            <li>
+              <Link href={"/"} locale={"al"} passHref>
+                <img src="../Albania.svg" width="30px"></img>
+              </Link>
+            </li>
+            <li>
+              <Link href={"/"} locale={"en"} passHref>
+                <img src="../UnitedKingdom.svg" width="30px"></img>
+              </Link>
+            </li>
+            <li>
+              <Link href={"/"} locale={"mk"} passHref>
+                <img src="../Macedonia.svg" width="40px"></img>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -53,15 +52,18 @@ export default function PgHeader() {
           <li>
             <Link href="contact">Contact</Link>
           </li>
+          <li>
+            <Link href="student">Student</Link>
+          </li>
+          <li>
+            <Link href="companies">Company</Link>
+          </li>
         </ul>
 
         {/* Student / Company buttons */}
         <div className={Styles.ButtonsNav}>
           <Link href="https://jobs.marseco.mk/career/seeu" passHref>
-            <button>for Student</button>
-          </Link>
-          <Link href="companies" passHref>
-            <button>for Company</button>
+            <button>Job Corner</button>
           </Link>
         </div>
       </nav>

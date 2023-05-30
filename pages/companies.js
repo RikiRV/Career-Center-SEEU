@@ -23,6 +23,9 @@ export default function Companies() {
     <>
       <div className={Styles.CompaniesContainer}>
         <div className={Styles.QuestionText}>
+          <p>{t.TopP}</p>
+        </div>
+        <div className={Styles.QuestionText}>
           <h1>{t.Question1}</h1>
           <p>{t.P1}</p>
         </div>
@@ -34,9 +37,19 @@ export default function Companies() {
           <h1>{t.Question3}</h1>
           <p>{t.P3}</p>
         </div>
+        <div className={Styles.HowCanYouHelp}>
+          <h1>{t.Question4}</h1>
+          <p>{t.P4}</p>
+        </div>
+        <div className={Styles.HowCanYouHelp}>
+          <h1>{t.Question5}</h1>
+          <p>{t.P5}</p>
+        </div>
+        <div className={Styles.TextEnd}>
+          <h1>{t.Question6}</h1>
+          <p>{t.P6}</p>
+        </div>
       </div>
-      <ContactText />
-      <Form />
     </>
   );
 }

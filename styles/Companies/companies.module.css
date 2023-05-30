@@ -61,3 +61,15 @@
   align-self: center;
   /* border-bottom: 0.2em solid #153e4d; */
 }
+
+/* Text End */
+.TextEnd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TextEnd h1 {
+  justify-self: center;
+  align-self: center;
+}

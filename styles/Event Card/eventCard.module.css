@@ -12,7 +12,7 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: 304px;
-  max-width: 250px;
+  max-width: 40em;
   border: 2px solid #153e4d;
   border-radius: 25px;
   padding: 10px 20px;

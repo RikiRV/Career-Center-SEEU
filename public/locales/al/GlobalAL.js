@@ -1,10 +1,10 @@
 export default {
-  LatestEvents: "GET UPDATED ON OUR LATEST EVENTS! AL",
+  LatestEvents: "PËRDITËSOHUNI MË LAJMET TONA MË TË FUNDIT",
   LatestNews: "GET UPDATED ON OUR LATEST NEWS!",
-  CCSTitle: "Career Center Seeu AL",
+  CCSTitle: "UEJL Qendra e Karrierës",
   CCSTtext:
-    "The South East European University Career Centre is a linking bridge between students of our university and companies in North Macedonia.",
-  WWDTitle: "What do we do?",
+    "Qendra e karrierës në UEJL është urë lidhëse në mes të studentëve të universitetit tonë dhe kompanive në vend. ",
+  WWDTitle: "Çfare bëjmë ne ",
   WWDText:
-    "We are working with two groups of people, the present and graduated students. To the last ones we help building their career steps by finding places for employment in private or public sectors dependence from their major or qualities.",
+    "Ne punojmë me dy grupe të studentëve ato aktual dhe studentët e diplomuar në universitetin tonë. Studentëve të diplomuar u ndihmojmë në krijimin e karrierës së tyre duke u gjetur vende pune në  institucionet shtetërore apo private varësisht shkollimit dhe aftësive që ata kanë. ",
 };

@@ -1,7 +1,7 @@
 export default {
-  LatestEvents: "GET UPDATED ON OUR LATEST EVENTS! EN",
+  LatestEvents: "GET UPDATED ON OUR LATEST NEWS!",
   LatestNews: "GET UPDATED ON OUR LATEST NEWS!",
-  CCSTitle: "Career Center Seeu EN",
+  CCSTitle: "SEEU Career Center",
   CCSTtext:
     "The South East European University Career Centre is a linking bridge between students of our university and companies in North Macedonia.",
   WWDTitle: "What do we do?",

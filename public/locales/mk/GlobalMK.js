@@ -1,10 +1,10 @@
 export default {
-  LatestEvents: "GET UPDATED ON OUR LATEST EVENTS! MK",
+  LatestEvents: "АЖУРИРАЈТЕ СЕ НА НАШИТЕ НАЈНОВИ ВЕСТИ",
   LatestNews: "GET UPDATED ON OUR LATEST NEWS!",
-  CCSTitle: "Career Center Seeu MK",
+  CCSTitle: "Центар за кариера УЈИЕ",
   CCSTtext:
-    "The South East European University Career Centre is a linking bridge between students of our university and companies in North Macedonia.",
-  WWDTitle: "What do we do?",
+    "Центарот за кариера при УЈИЕ е поврзан мост меѓу студентите на нашиот универзитет и компаниите во земјата.",
+  WWDTitle: "Што работиме ние",
   WWDText:
-    "We are working with two groups of people, the present and graduated students. To the last ones we help building their career steps by finding places for employment in private or public sectors dependence from their major or qualities.",
+    "Ние работиме со две групи на студенти: сегашните и дипломираните студенти од нашиот универзитет.На студентите од УЈИЕ им помагаме во креирањето на нивната кариера при наоѓање на нивната работа во некои од државните или приватните институции во зависност од нивното школување и способностите кои што тие ги имаат.",
 };

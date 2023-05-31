@@ -1,16 +1,16 @@
 export default {
-  p1: "prv paragraf",
-  p2: "vtor paragraf",
-  missionTitle: "Nashata misia",
+  p1: "Центарот за кариера во УЈИЕ е мост помеѓу студентите на нашиот универзитет и компаниите, институциите и организациите во земјата. Центарот нуди услуги за сегашни и дипломирани студенти. На дипломираните студенти им нудиме поддршка за полесно да влезат на пазарот на трудот, овозможувајќи им да се информираат за отворените работни места и индивидуалните сесии за советување и кариерно насочување.",
+  p2: "Им помагаме на сегашните студенти да научат повеќе за нивните вештини, способности и вредности, да истражуваат различни кариери, да стекнат работно искуство, да градат мрежа на контакти, да создадат CV, да најдат место за практична работа, да бидат самоуверени додека учествуваат во интервјуто.",
+  missionTitle: "Наша мисија",
   missionText:
-    "Misioni i Qendrës së karrierës në UEJL është të trajnojë dhe ndihmojë studentët në kalimin nga jeta akademike në punësim profesional.",
+    "Мисијата на Центарот за кариера во УЈИЕ е да ги обучува и помага студентите во преминот од академски живот кон професионално вработување.",
   WhatWeDoList: [
-    "U ndihmojmë studentëve të identifikojnë, planifikojnë dhe realizojnë qëllimet e karrierës.",
-    "Kontribojmë në aftësimin e studentëve për kërkim të vendeve të punës dhe mundësive për zhvillim profesional.",
-    "Ofrojmë informata aktuale për mundësitë për punësim dhe praktikë/Internship.",
-    "Ofrojmë informata aktuale për tregun e punës.",
-    "Organizojmë ngjarje që ju mundësojnë studentëve të krijojnë takime dhe kontakte me punëdhënësit potenacial.",
-    "Nxisim dhe mbajmë partneritet të vazhdueshëm dhe afatgjatë me departamentet akademike për të siguruar shkëmbime cilësore mes Qendrës së Karrierës, komunitetit akademik dhe punëdhënësve brenda dhe jashtë kufijve të Maqedonisë.",
+    "Им помагаме на студентите да ги идентификуваат, планираат и реализираат своите цели во кариерата",
+    "Придонесуваме да им овозможиме на студентите успешно да бараат работа и можности за професионален развој",
+    "Нудиме актуелни информации за можностите за вработување и практична работа",
+    "Нудиме актуелни информации за пазарот на трудот",
+    "Организираме настани кои им овозможуваат на студентите да создадат состаноци и контакти со потенцијалните работодавци",
+    "Ние ги охрабруваме и одржуваме континуираните и долгорочни партнерства со академските катедри за да обезбедиме квалитетна размена помеѓу Центарот за кариера, академската заедница и работодавците внатре и надвор од границите на Македонија",
   ],
-  WhatWeDoTitle: "Çfar bëjmë ne MK?",
+  WhatWeDoTitle: "Што работиме ние",
 };

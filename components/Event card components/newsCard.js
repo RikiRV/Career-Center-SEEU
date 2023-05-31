@@ -27,7 +27,7 @@ export default function NewsCard() {
               <h2>{material.NewsTitle}</h2>
               <p>{material.NewsContent}</p>
             </div>
-            <img src={material.ImgLink} width="250px"></img>
+            <img src={material.ImgLink} width="400px"></img>
           </div>
         );
       })}

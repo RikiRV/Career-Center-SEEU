@@ -22,8 +22,6 @@ export default function ContactText() {
     <>
       <div className={Styles.TextContainer}>
         <h1>{t.Title}</h1>
-        <p>{t.InformText}</p>
-        <p>{t.AltText}</p>
       </div>
       <div className={Styles.ContactContainer}>
         <p>email: {t.Infromation.email}</p>

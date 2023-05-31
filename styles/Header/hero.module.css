@@ -47,9 +47,11 @@
   }
   .SeeuVideo {
     opacity: 1;
+    object-fit: fill;
   }
   .HeroContainer {
     margin-bottom: 0px;
+    background-color: white;
   }
 }
 

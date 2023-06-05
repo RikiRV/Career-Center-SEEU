@@ -29,9 +29,25 @@ export default function EventCard() {
             <div className={Styles.FrontContainer}>
               <h2>{material.title}</h2>
               <p>{material.text}</p>
+              <br></br>
+              <p>{material.text2}</p>
+              <br></br>
+              <p>
+                <a href="https://bit.ly/3NKewvp">{material.textAgjenda}</a>
+                <br></br>
+                <br></br>
+                <a href="https://bit.ly/42cuuCF">{material.textPunsim}</a>
+                <br></br>
+                <br></br>
+                <a href="https://bit.ly/42uTncI">{material.textKompanite}</a>
+              </p>
+              <br></br>
+              <p>{material.thankYouText}</p>
+              <br></br>
+              <p>{material.careerCenter}</p>
 
               {/*Modal trigger */}
-              <input
+              {/* <input
                 type="checkbox"
                 className={Styles.ExpandButton}
                 checked={isChecked}
@@ -44,7 +60,7 @@ export default function EventCard() {
                 }}
               >
                 {ReadText}
-              </button>
+              </button> */}
             </div>
 
             {/* Back Card */}

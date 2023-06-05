@@ -18,71 +18,88 @@ export default function StudentText() {
   }
 
   return (
-    <div className={Styles.StudentContainer}>
-      <div className={Styles.QA1}>
-        <p>{t.TopT}</p>
+    <>
+      <div className={Styles.StudentContainer}>
+        <div className={Styles.QA1}>
+          <p>{t.TopT}</p>
+        </div>
       </div>
-      <div className={Styles.QA1}>
-        <h1>{t.Q1}</h1>
-        <ul>
-          {t.P1.map((material) => {
-            return (
-              <li>
-                <p>{material}</p>
-              </li>
-            );
-          })}
-        </ul>
+      {/* 2nd paragraph */}
+      <div className={Styles.StudentContainer}>
+        <div className={Styles.QA1}>
+          <h1>{t.Q1}</h1>
+          <ul>
+            {t.P1.map((material) => {
+              return (
+                <li>
+                  <p>{material}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-      <div className={Styles.QA2}>
-        <h1>{t.Q2}</h1>
-        <p>{t.P2}</p>
-        <ul>
-          {t.P2L.map((material) => {
-            return (
-              <li>
-                <p>{material}</p>
-              </li>
-            );
-          })}
-        </ul>
+      {/* 3rd paragraph */}
+      <div className={Styles.StudentContainer}>
+        <div className={Styles.QA2}>
+          <h1>{t.Q2}</h1>
+          <p>{t.P2}</p>
+          <ul>
+            {t.P2L.map((material) => {
+              return (
+                <li>
+                  <p>{material}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-      <div className={Styles.QA2}>
-        <h1>{t.Q3}</h1>
-        <ul>
-          {t.P3L.map((material) => {
-            return (
-              <li>
-                <p>{material}</p>
-              </li>
-            );
-          })}
-        </ul>
+      {/* 4th paragraph */}
+      <div className={Styles.StudentContainer}>
+        <div className={Styles.QA2}>
+          <h1>{t.Q3}</h1>
+          <ul>
+            {t.P3L.map((material) => {
+              return (
+                <li>
+                  <p>{material}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-      <div className={Styles.QA2}>
-        <h1>{t.Q4}</h1>
-        <ul>
-          {t.P4L.map((material) => {
-            return (
-              <li>
-                <p>{material}</p>
-              </li>
-            );
-          })}
-        </ul>
+      {/* 5th paragraph */}
+      <div className={Styles.StudentContainer}>
+        <div className={Styles.QA2}>
+          <h1>{t.Q4}</h1>
+          <ul>
+            {t.P4L.map((material) => {
+              return (
+                <li>
+                  <p>{material}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-      <div className={Styles.QA2}>
-        <h1>{t.Q5}</h1>
-        <ul>
-          {t.P5L.map((material) => {
-            return (
-              <li>
-                <p>{material}</p>
-              </li>
-            );
-          })}
-        </ul>
+      {/* 6th paragraph */}
+      <div className={Styles.StudentContainerNoBorder}>
+        <div className={Styles.QA2}>
+          <h1>{t.Q5}</h1>
+          <ul>
+            {t.P5L.map((material) => {
+              return (
+                <li>
+                  <p>{material}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

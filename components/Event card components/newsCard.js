@@ -25,7 +25,13 @@ export default function NewsCard() {
             {/* Front Card */}
             <div className={Styles.FrontContainer}>
               <h2>{material.NewsTitle}</h2>
-              <p>{material.NewsContent}</p>
+              <p>{material.NewsContent1}</p>
+              <br></br>
+              <p>{material.NewsContent2}</p>
+              <br></br>
+              <p>{material.NewsContent3}</p>
+              <br></br>
+              <p>{material.NewsContent4}</p>
             </div>
             <img src={material.ImgLink} width="400px"></img>
           </div>

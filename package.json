@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "homepage": "https://hostinger-react-app.com"
   },
   "dependencies": {
     "@next/font": "^13.4.1",

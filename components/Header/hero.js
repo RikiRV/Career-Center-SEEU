@@ -48,7 +48,7 @@ export default function Hero() {
       {/* Student / Company buttons */}
       <div className={Styles.ButtonsNav}>
         <Link href="https://jobs.marseco.mk/career/seeu" passHref>
-          <button>Job Coener</button>
+          <button>Job Corner</button>
         </Link>
       </div>
     </>

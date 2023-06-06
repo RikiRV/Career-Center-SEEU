@@ -1,12 +1,20 @@
 import { useRouter } from "next/router";
 import Styles from "../../styles/Header/header.module.css";
 import Link from "next/link";
-
+import Head from "next/head";
 export default function PgHeader() {
   const { locale, locales, push } = useRouter();
 
   return (
     <>
+      <Head>
+        <title>Career Center</title>
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="/Career center - logo svg.svg"
+        ></link>
+      </Head>
       {/* Top of Hero section */}
       <div className={Styles.TopOfHero}>
         {/* Language changes */}

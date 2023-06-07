@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "homepage": "https://hostinger-react-app.com"
+    "homepage": "https://careercentre.seeu.edu.mk/"
   },
   "dependencies": {
     "@next/font": "^13.4.1",
